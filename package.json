@@ -1,6 +1,6 @@
 {
   "name": "loona",
-  "description": "loona",
+  "description": "CLI for Loona",
   "version": "0.0.2",
   "author": {
     "name": "Zac Anger",
@@ -11,8 +11,10 @@
   "main": "index.js",
   "bin": "./index.js",
   "scripts": {
+    "preversion": "npm t",
     "start": "node index",
-    "test": ""
+    "test": "npm run test:lint",
+    "test:lint": "eslint -c .eslintrc.json index.js"
   },
   "homepage": "https://github.com/zacanger/loona#readme",
   "repository": {
@@ -21,11 +23,17 @@
   },
   "bugs": "https://github.com/zacanger/loona/issues",
   "keywords": [
-    "",
+    "kpop",
     "loona"
   ],
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-eslint": "8.2.2",
+    "eslint-config-jane": "0.10.0",
+    "eslint-plugin-babel": "4.1.2",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-unicorn": "4.0.2"
+  },
   "engines": {
     "node": ">=8.0.0"
   }

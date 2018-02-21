@@ -1,5 +1,7 @@
 # loona
 
+[WIP] CLI for checking Loona stats.
+
 --------
 
 ## Usage
