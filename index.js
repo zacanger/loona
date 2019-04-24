@@ -1,31 +1,21 @@
 #!/usr/bin/env node
 
-const exit = require('zeelib/lib/exit').default
+const cols = require('zeelib/lib/colorize')
+
+const text = 'stan loona'
+
+const randomColor = () => {
+  const cs = Object.keys(cols)
+  return cols[cs[~~(Math.random() * cs.length)]]
+}
+
+const main = () => {
+  const words = text.split('').map((c) => randomColor()(c)).join('')
+  console.log(words)
+}
+
 if (module.parent) {
-  console.log('Please execute this module.')
-  exit(1)
-}
-
-const open = require('zeelib/lib/open').default
-const getArgs = require('zeelib/lib/get-args').default
-const args = getArgs()
-const playlistUrl = 'https://www.youtube.com/watch?v=a6JmCdDs_GM&list=PLtcTpq9htoKzrWNw3PR7hN9IQ0JuxrjQU'
-
-const usage = () => {
-  console.log(`
-        stan talent!
-        stan loona!
-
-        usage:
-
-        loona -p [--playlist]
-        # open youtube playlist of all official
-        # MVs with less than 1M views
-  `)
-}
-
-if (args.some((a) => a === '-p' || a === '--playlist')) {
-  open(playlistUrl)
+  module.exports = text
 } else {
-  usage()
+  main()
 }
