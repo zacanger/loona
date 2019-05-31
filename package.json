@@ -11,9 +11,7 @@
   "main": "index.js",
   "bin": "./index.js",
   "scripts": {
-    "preversion": "npm t && sortpack",
-    "test": "npm run test:lint",
-    "test:lint": "standard"
+    "preversion": "sortpack && standard"
   },
   "homepage": "https://github.com/zacanger/loona#readme",
   "repository": {
@@ -29,7 +27,7 @@
     "zeelib": "8.6.0"
   },
   "devDependencies": {
-    "sortpack": "1.1.6",
+    "sortpack": "1.1.7",
     "standard": "12.0.1"
   },
   "engines": {
