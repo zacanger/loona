@@ -1,12 +1,10 @@
 # loona
 
+#stanLOONA
+
 ## Usage
 
 `npx loona`
-
-## TODO
-
-make this do something useful
 
 ## License
 
