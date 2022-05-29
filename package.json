@@ -25,7 +25,8 @@
     "이달의 소녀"
   ],
   "dependencies": {
-    "open": "8.4.0"
+    "is-program-installed": "2.3.0",
+    "zeelib": "11.1.9"
   },
   "devDependencies": {
     "sortpack": "2.2.0",
