@@ -25,11 +25,11 @@
     "이달의 소녀"
   ],
   "dependencies": {
-    "is-program-installed": "2.3.0",
+    "is-program-installed": "2.3.1",
     "zeelib": "11.1.9"
   },
   "devDependencies": {
-    "sortpack": "2.2.0",
+    "sortpack": "2.2.3",
     "standard": "17.0.0"
   },
   "engines": {
