@@ -6,6 +6,7 @@ const isInstalled = require('is-program-installed')
 const spotifyLink = 'https://open.spotify.com/playlist/37i9dQZF1DWSluHnSzEAUI'
 const youtubeLink = 'https://www.youtube.com/watch?v=aXaHB4gGAys'
 const mnetLink = 'https://www.mnet.world/community/main?communityId=DtAok2aQcE21eCPykh19t'
+const guideLink = 'https://old.reddit.com/r/LOONA/comments/v15kai/queendom_finale_full_guide_discussion_thread/'
 
 const tourMessage = `LOONA 1ST WORLD TOUR
 
@@ -25,6 +26,11 @@ Tickets available starting June 4th!
 
 const main = async () => {
   console.log(tourMessage)
+  const guide = await prompt('See voting guide for Queendom?')
+  if (guide) {
+    open(guideLink)
+  }
+
   const first = await prompt('Vote for LOONA on MNET?')
   if (first) {
     open(mnetLink)
