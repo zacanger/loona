@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
+const open = require('open')
 const colors = require('zeelib/lib/colorize').default
+const prompt = require('zeelib/lib/term-prompt').default
 
 const tourMessage = `
 LOONA 1ST WORLD TOUR
@@ -19,17 +21,13 @@ USA DATES:
 Tickets available starting June 4th!
 `.trim()
 
-const albumMessage = `
-FL!P THAT
-
-MINI ALBUM
-RELEASE DATE: 2022 June 20
-`.trim()
-
 const main = async () => {
-  console.log(colors.magenta(albumMessage))
-  console.log('\n')
   console.log(colors.green(tourMessage))
+  console.log('\n')
+  const answer = await prompt('Open Flip That on YouTube?')
+  if (answer) {
+    open('https://www.youtube.com/watch?v=SPYX2y4NzTU')
+  }
 }
 
 main()

@@ -25,6 +25,7 @@
     "이달의 소녀"
   ],
   "dependencies": {
+    "open": "8.4.0",
     "zeelib": "11.2.0"
   },
   "devDependencies": {
