@@ -8,12 +8,6 @@ const tourMessage = `
 LOONA 1st World Tour: LOONATHEWORLD
 
 North America:
-2nd August,     LA,           The Wiltern
-4th August,     SF,           The Midway
-6th August,     Denver,       Fillmore Auditorium
-8th August,     KC,           Uptown Theater
-11th August,    Chicago,      Radius Chicago
-13th August,    Louisville,   Old Forester's Paristown Hall
 15th August,    Reading (PA), Santander Arena
 17th August,    DC,           MGM National Harbor
 19th August,    NYC,          Palladium Times Sqaure
@@ -34,8 +28,17 @@ Japan:
 1st October,    Tokyo,        Tokyo Garden Theater
 `.trim()
 
+const contentArchiveLink = 'https://docs.google.com/spreadsheets/d/1XbLfgf4grfsZ_CUSt9nXgHVFoMrgu16wgVPYNs1hAX4/edit#gid=1204245601'
+const photoArchiveLink = 'https://drive.google.com/drive/folders/1k0dVWFyxa6VUdwno97vsJZK3MttvxwQj'
+
 const main = async () => {
   console.log(colors.green(tourMessage))
+  console.log('\n')
+  console.log(colors.cyan('Content Archive:'))
+  console.log(colors.cyan(contentArchiveLink))
+  console.log('\n')
+  console.log(colors.magenta('Photo Archive:'))
+  console.log(colors.magenta(photoArchiveLink))
   console.log('\n')
   const answer = await prompt('Open Flip That on YouTube?')
   if (answer) {
