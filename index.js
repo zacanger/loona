@@ -8,10 +8,6 @@ const tourMessage = `
 LOONA 1st World Tour: LOONATHEWORLD
 
 North America:
-15th August,    Reading (PA), Santander Arena
-17th August,    DC,           MGM National Harbor
-19th August,    NYC,          Palladium Times Sqaure
-21st August,    LA,           Crypto.com Arena (KCON LA)
 23rd August,    Atlanta,      Coca-Cola Roxy
 25th August,    Dallas,       Music Hall at Fair Park
 26th August,    Houston,      713 Music Hall
