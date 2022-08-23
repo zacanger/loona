@@ -8,7 +8,6 @@ const tourMessage = `
 LOONA 1st World Tour: LOONATHEWORLD
 
 North America:
-23rd August,    Atlanta,      Coca-Cola Roxy
 25th August,    Dallas,       Music Hall at Fair Park
 26th August,    Houston,      713 Music Hall
 28th August,    Mexico City,  Pepsi Center
@@ -22,6 +21,9 @@ Europe:
 
 Japan:
 1st October,    Tokyo,        Tokyo Garden Theater
+
+Philippines:
+21st October,   Manila,       CCP Open Grounds
 `.trim()
 
 const contentArchiveLink = 'https://docs.google.com/spreadsheets/d/1XbLfgf4grfsZ_CUSt9nXgHVFoMrgu16wgVPYNs1hAX4/edit#gid=1204245601'
