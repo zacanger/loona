@@ -7,11 +7,6 @@ const prompt = require('zeelib/lib/term-prompt').default
 const tourMessage = `
 LOONA 1st World Tour: LOONATHEWORLD
 
-North America:
-25th August,    Dallas,       Music Hall at Fair Park
-26th August,    Houston,      713 Music Hall
-28th August,    Mexico City,  Pepsi Center
-
 Europe:
 6th September,  Warsaw,       Arena COS Torwar
 8th September,  Amsterdam,    AFAS Live
