@@ -8,8 +8,6 @@ const tourMessage = `
 LOONA 1st World Tour: LOONATHEWORLD
 
 Europe:
-6th September,  Warsaw,       Arena COS Torwar
-8th September,  Amsterdam,    AFAS Live
 11th September, Frankfurt,    Jahrhunderthalle
 13th September, Paris,        Le Zenith
 16th September, London,       O2 Academy Brixton
