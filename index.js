@@ -7,15 +7,9 @@ const prompt = require('zeelib/lib/term-prompt').default
 const tourMessage = `
 LOONA 1st World Tour: LOONATHEWORLD
 
-Europe:
-13th September, Paris,        Le Zenith
-16th September, London,       O2 Academy Brixton
-
-Japan:
-1st October,    Tokyo,        Tokyo Garden Theater
-
-Philippines:
-21st October,   Manila,       CCP Open Grounds
+16th September, London, O2 Academy Brixton
+1st October,    Tokyo,  Tokyo Garden Theater
+21st October,   Manila, CCP Open Grounds
 `.trim()
 
 const contentArchiveLink = 'https://docs.google.com/spreadsheets/d/1XbLfgf4grfsZ_CUSt9nXgHVFoMrgu16wgVPYNs1hAX4/edit#gid=1204245601'
