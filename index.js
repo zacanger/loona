@@ -7,7 +7,6 @@ const prompt = require('zeelib/lib/term-prompt').default
 const tourMessage = `
 LOONA 1st World Tour: LOONATHEWORLD
 
-1st October,    Tokyo,  Tokyo Garden Theater
 21st October,   Manila, CCP Open Grounds
 15th October,   Seoul,  SK Olympic Handball Gymnasium
 16th October,   Seoul,  SK Olympic Handball Gymnasium
