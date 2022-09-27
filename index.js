@@ -7,9 +7,9 @@ const prompt = require('zeelib/lib/term-prompt').default
 const tourMessage = `
 LOONA 1st World Tour: LOONATHEWORLD
 
-21st October,   Manila, CCP Open Grounds
 15th October,   Seoul,  SK Olympic Handball Gymnasium
 16th October,   Seoul,  SK Olympic Handball Gymnasium
+21st October,   Manila, CCP Open Grounds
 `.trim()
 
 const contentArchiveLink = 'https://docs.google.com/spreadsheets/d/1XbLfgf4grfsZ_CUSt9nXgHVFoMrgu16wgVPYNs1hAX4/edit#gid=1204245601'
