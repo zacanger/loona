@@ -1,16 +1,6 @@
 #!/usr/bin/env node
 
-const open = require('open')
 const colors = require('zeelib/lib/colorize').default
-const prompt = require('zeelib/lib/term-prompt').default
-
-const tourMessage = `
-LOONA 1st World Tour: LOONATHEWORLD
-
-15th October,   Seoul,  SK Olympic Handball Gymnasium
-16th October,   Seoul,  SK Olympic Handball Gymnasium
-21st October,   Manila, CCP Open Grounds
-`.trim()
 
 const contentArchiveLink = 'https://docs.google.com/spreadsheets/d/1XbLfgf4grfsZ_CUSt9nXgHVFoMrgu16wgVPYNs1hAX4/edit#gid=1204245601'
 const photoArchiveLink = 'https://drive.google.com/drive/folders/1k0dVWFyxa6VUdwno97vsJZK3MttvxwQj'
@@ -19,8 +9,6 @@ const fandomLink = 'https://loonatheworld.fandom.com/'
 const imageDumpLink = 'https://docs.google.com/spreadsheets/d/128qKdqfKLLSWN8YBQTDRsTNPK1WEugN5cAz1hyRVTj8/edit#gid=1979688804'
 
 const main = async () => {
-  console.log(colors.green(tourMessage))
-  console.log()
   console.log(colors.cyan('Content Archive:'))
   console.log(colors.cyan(contentArchiveLink))
   console.log()
@@ -35,11 +23,6 @@ const main = async () => {
   console.log()
   console.log(colors.yellow('Fandom Wiki:'))
   console.log(colors.yellow(fandomLink))
-  console.log()
-  const answer = await prompt('Open Flip That on YouTube?')
-  if (answer) {
-    open('https://www.youtube.com/watch?v=SPYX2y4NzTU')
-  }
 }
 
 main()
