@@ -1,7 +1,7 @@
 {
   "name": "loona",
   "description": "#stanLOONA",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "author": {
     "email": "zac@zacanger.com",
     "name": "Zac Anger",
@@ -24,8 +24,7 @@
     "loona",
     "이달의 소녀"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "sortpack": "2.3.0",
     "standard": "17.0.0"
