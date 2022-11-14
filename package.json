@@ -25,7 +25,6 @@
     "이달의 소녀"
   ],
   "dependencies": {
-    "zeelib": "11.2.0"
   },
   "devDependencies": {
     "sortpack": "2.3.0",
