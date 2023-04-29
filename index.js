@@ -22,22 +22,27 @@ const photoArchiveLink = 'https://drive.google.com/drive/folders/1k0dVWFyxa6VUdw
 const teamSubbitsLink = 'https://www.teamsubbits.com'
 const fandomLink = 'https://loonatheworld.fandom.com/'
 const imageDumpLink = 'https://docs.google.com/spreadsheets/d/128qKdqfKLLSWN8YBQTDRsTNPK1WEugN5cAz1hyRVTj8/edit#gid=1979688804'
+const boycottMediaLink = 'https://drive.google.com/drive/folders/15nOtXlSIKYD_anDn7PtDimHiyByzrjFa'
 
+const l = console.log
 const main = async () => {
-  console.log(colors.cyan('Content Archive:'))
-  console.log(colors.cyan(contentArchiveLink))
-  console.log()
-  console.log(colors.magenta('Photo Archive:'))
-  console.log(colors.magenta(photoArchiveLink))
-  console.log()
-  console.log(colors.blue('Image Dump Masterlist:'))
-  console.log(colors.blue(imageDumpLink))
-  console.log()
-  console.log(colors.red('Team Subbits:'))
-  console.log(colors.red(teamSubbitsLink))
-  console.log()
-  console.log(colors.yellow('Fandom Wiki:'))
-  console.log(colors.yellow(fandomLink))
+  l(colors.green('Boycott-Safe Media Archive:'))
+  l(colors.green(boycottMediaLink))
+  l()
+  l(colors.cyan('Content Archive:'))
+  l(colors.cyan(contentArchiveLink))
+  l()
+  l(colors.magenta('Photo Archive:'))
+  l(colors.magenta(photoArchiveLink))
+  l()
+  l(colors.blue('Image Dump Masterlist:'))
+  l(colors.blue(imageDumpLink))
+  l()
+  l(colors.red('Team Subbits:'))
+  l(colors.red(teamSubbitsLink))
+  l()
+  l(colors.yellow('Fandom Wiki:'))
+  l(colors.yellow(fandomLink))
 }
 
 main()
