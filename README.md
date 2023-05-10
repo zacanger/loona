@@ -15,6 +15,5 @@
 * [Team Subbits](https://www.teamsubbits.com)
 * [Fandom Wiki](https://loonatheworld.fandom.com/)
 
-## License
-
-[MIT](./LICENSE.md)
+* [LICENSE](./LICENSE.md)
+* [Donate](https://ko-fi.com/zacanger)
